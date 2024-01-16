@@ -131,6 +131,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Aviation Analysis",
+      techStack: ["Academic Project", "Data Science", "Pandas", "Matplotlib", "Seaborn"],
+      description:
+        "Data science project to conduct baseline analysis of aviation on a dataset sourced from Kaggle.",
+      logo: TastyCloudLogo,
+      link: {
+        label: "tastycloud.fr",
+        href: "",
+      },
+    },
+    {
       title: "HarryGPT",
       techStack: ["Side Project", "Python", "NLTK", "Spacy", "Django", "Tensorflow", "gTTS"],
       description:
