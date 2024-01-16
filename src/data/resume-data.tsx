@@ -114,164 +114,140 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "LearnAI",
       techStack: [
-        "Side Project",
-        "TypeScript",
+        "Academic Project",
+        "Langchain",
+        "Python",
+        "Flask",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Typescript",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Containerized application for college faculty to fine-tune LLM models and guide students through learning activities.",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
-        href: "https://consultly.com/",
+        href: "",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "HarryGPT",
+      techStack: ["Side Project", "Python", "NLTK", "Spacy", "Django", "Tensorflow", "gTTS"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Leverage NLP techniques to train text generator model on all of Harry Potter's lines from JK Rowling's texts.",
       logo: MonitoLogo,
       link: {
         label: "monito.dev",
-        href: "https://monito.dev/",
+        href: "",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "RubikAI",
+      techStack: ["Academic Project", "Python"],
       description:
         "My personal website and blog. Built with Next.js and Notion API",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "Rubik’s cube solver using breadth-first search, depth-first search and A* (Manhattan Distance) heuristic.",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Conway's Game of Life ",
+      techStack: ["Academic Project", "Node.js", "Javascript", "HTML", "CSS", "Netlify"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "Visualization for Conway's Game of Life where a 25X25 board is initialized with random starting configurations and dead/alive cells fight it out.",
       logo: Minimal,
       link: {
         label: "useminimal.com",
-        href: "https://useminimal.com/",
+        href: "",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Survey Generator",
+      techStack: ["Academic Project", "Java", "JUnit", "Spring", "Gradle", "Maven"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
+        "Reusable object-oriented software implemented using design patterns and scaled out using test-driven development in JUnit.",
       logo: BarepapersLogo,
       link: {
         label: "barepapers.com",
-        href: "https://barepapers.com/",
+        href: "",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
+      title: "Private Wealth Manager",
+      techStack: ["Personal Project", "Python", "Pandas", "Numpy"],
+      description: "Applied the Sortino Ratio formula to calculate and compare the profitability and risk of different investments using pandas.",
       logo: YearProgressLogo,
       link: {
         label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        href: "",
       },
     },
     {
-      title: "Parabol",
+      title: "SAT Solver",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Academic Project",
+        "Racket",
+        "Functional Programming"
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "Fully functional SAT solver to implement Boolean satisfiability for up to 4 variable expressions",
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "",
       },
     },
     {
-      title: "Evercast",
+      title: "Data Parser",
       techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Academic Project",
+        "Bash",
+        "AWK",
+        "Scripting",
+        "Linux",
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "Used AWK to scrape data and generate XML files to display a subset of US Army veteran data on formatted webpages.",
       logo: EvercastLogo,
       link: {
         label: "evercast.us",
-        href: "https://www.evercast.us/",
+        href: "",
       },
     },
     {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Broke Bad",
+      techStack: ["Personal Project", "React", "Radzen", "Blazor"],
       description:
-        "Android application for leading virtual mobile operator in Poland",
+        "Front-end web application to display randomly generated Breaking Bad quotes.",
       logo: MobileVikingsLogo,
       link: {
         label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
+        href: "",
       },
     },
     {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Chill-A-Lil",
+      techStack: ["Coursework", "HTML", "CSS", "JQuery", "Bootstrap", "MongoDB", "PHP"],
       description:
-        "Howdy is a place for you to join communities you care about",
+        "A completely responsive mental health website",
       logo: Howdy,
       link: {
         label: "play.google.com",
-        href: "https://howdy.co/",
+        href: "",
       },
     },
     {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
+      title: "Doggo",
+      techStack: ["Personal Project", "Linux", "Shell Scripting"],
       description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
+        "An interactive finite state machine that alternates between the various moods (states) of a dog.",
       logo: TastyCloudLogo,
       link: {
         label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
+        href: "",
       },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
