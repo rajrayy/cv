@@ -60,7 +60,7 @@ export const RESUME_DATA = {
       link: "https://www.aboutamazon.com/",
       badges: ["Massachusetts"],
       title: "Software Development Co-Op",
-      logo: ParabolLogo,
+      logo: AmbitLogo,
       start: "2022",
       end: "2023",
       description:
