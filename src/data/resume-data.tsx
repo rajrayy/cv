@@ -156,11 +156,11 @@ export const RESUME_DATA = {
       title: "RubikAI",
       techStack: ["Academic Project", "Python"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Rubik’s cube solver using breadth-first search, depth-first search and A* (Manhattan Distance) heuristic.",
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "Rubik’s cube solver using breadth-first search, depth-first search and A* (Manhattan Distance) heuristic.",
+        href: "",
       },
     },
     {
